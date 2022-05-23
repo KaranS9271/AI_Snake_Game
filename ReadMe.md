@@ -62,11 +62,18 @@ Navigate to the stored folder and run below commands on the terminal:
     - Python
     - Pygame
     - Tensorflow
+    - Tensorflow_probability
     - SDL2
     - SDL2.dll
     - tqdm
     - NumPy
     - Gym
+    - Ipython
+    - Torch
+    - Matplotlib
+    
+### You can download it using
+      pip install -r requirements.txt
 
 ## How does it work?
 ### Hamitonian Implementation:
