@@ -8,3 +8,4 @@ gym
 torch
 matplotlib
 tqdm
+ipython
