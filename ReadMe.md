@@ -26,12 +26,11 @@ Navigate to the stored folder and run below commands on the terminal:
 
 ### Actor_Critic: directory for the Actor-Critic algorithm
 
-    actor_critic.py :  contains actor-critic network
-    reinforce.py : contains Reinforce network
-    rlsnake_env.py : sets the snake game environment
-    rlsnake_env_v1: sets the snake game environment
+    ACN.py :  contains actor-critic network
+    Env1.py: sets the snake game environment
     simulate.py : display action on the screen for the snake game
-    tfagent.py : tensorflow agent which selects action
+    TensorAgent.py : tensorflow agent which selects action
+    snake.py: interface for the snake game
     train.py: train the actor-critic model
 
 ### A* Algorithm
