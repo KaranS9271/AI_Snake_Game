@@ -6,6 +6,10 @@
 
 ## INSTALL AND RUN PROJECT
 
+You can download it using
+
+    pip install -r requirements.txt
+
 Navigate to the stored folder and run below commands on the terminal: 
     
     python main.py "basic"
@@ -71,9 +75,6 @@ Navigate to the stored folder and run below commands on the terminal:
     - Ipython
     - Torch
     - Matplotlib
-    
-### You can download it using
-      pip install -r requirements.txt
 
 ## How does it work?
 ### Hamitonian Implementation:
