@@ -233,7 +233,7 @@ if __name__ == "__main__":
     elif(sys.argv[1] == "dql"):
         os.system('python ./Deep_Q_Learning/agents.py')
     elif(sys.argv[1] == "a2c"):
-        os.system('python ./Actor_Critic/simulate.py --model-path Actor_Critic/models/model.index --x 10 --y 10 --seed 123 --sleep 10 --autoplay')
+        os.system('python ./Actor_Critic/simulate.py --model-path Actor_Critic/models/model --x 4 --y 4 --seed 123 --sleep 500 --autoplay')
     else:
         set_font()
         while True:

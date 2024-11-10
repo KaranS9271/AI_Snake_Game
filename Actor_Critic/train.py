@@ -3,7 +3,6 @@ import os
 import random
 import shutil
 import sys
-
 from typing import List, Tuple
 
 import tensorflow as tf
@@ -16,6 +15,7 @@ import tqdm
 from Env1 import env1
 from ACN import ACN
 
+os.environ["TF_USE_LEGACY_KERAS"] = "1"
 parser = argparse.ArgumentParser(description='A trainer for actor-critic model to play Snake')
 parser.add_argument('--x', type=int, default=4, metavar='X',
                 help='number of tiles in horizontal direction (default: 4)')

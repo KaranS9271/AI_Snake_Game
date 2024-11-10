@@ -1,6 +1,7 @@
 import os
 from tensorflow.keras import Model
 from tensorflow.keras.layers import Dense 
+os.environ["TF_USE_LEGACY_KERAS"] = "1"
 
 class ACN(Model):
     def __init__(self, n_actions, fc1_dims=256, fc2_dims=256, name='actorcritic'):
