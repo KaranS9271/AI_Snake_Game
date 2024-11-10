@@ -1,5 +1,4 @@
 from bfs_snake_game import *
-import bfs_snake_game
 from os import environ
 
 WHITE = (255, 255, 255)
@@ -56,7 +55,6 @@ def game():
 
     mainloop = True
     while mainloop:
-        DISPLAY_WINDOW = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
         snake_moves, score = snake.get_moves()
         draw_grid(snake_moves, score)
         snake.update()

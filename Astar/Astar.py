@@ -146,8 +146,8 @@ def drawbox(x, y, hx, hy):
 
 
 def randomSnack():
-    rx1 = random.randrange((WINDOW_HEIGHT - CELL_SIZE) / CELL_SIZE)
-    ry1 = random.randrange((WINDOW_WIDTH - CELL_SIZE) / CELL_SIZE)
+    rx1 = random.randrange(int((WINDOW_HEIGHT - CELL_SIZE) / CELL_SIZE))
+    ry1 = random.randrange(int((WINDOW_WIDTH - CELL_SIZE) / CELL_SIZE))
     rx2, ry2 = rx1 * CELL_SIZE, ry1 * CELL_SIZE
     for i in range(0, size):
         a, b = sp[i]
